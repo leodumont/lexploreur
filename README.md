@@ -1,7 +1,7 @@
 lexploreur
 =======
 
-Nouvelle version.
+Distant reading library for python.
 
 ## Installation
 
