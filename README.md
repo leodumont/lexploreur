@@ -23,13 +23,13 @@ Configure `lexploreur.py`, then `python lexploreur.py`.
 
 A CSV file where each row is a textual document in a given column. You can have as metadata columns describing the document as you want. 
 
-See `corpus.csv` for an example.
+See `bulletins_république.csv` for an example.
 
 ### Output
 
 A json file structured as follow.
 
-See `corpus.json` for a complete example.
+See `bulletins_république.json` for a complete example.
 
 ```json
 [
@@ -76,3 +76,7 @@ Document details:
 ```json
 { "id": 0, "sent_start": 0, "sent_end": 11 }
 ```
+
+## About the example corpus
+
+Texts from French Provisional Government of 1848. Raw OCR from Gallica: [https://gallica.bnf.fr/ark:/12148/bpt6k56085242](https://gallica.bnf.fr/ark:/12148/bpt6k56085242)
