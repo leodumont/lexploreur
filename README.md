@@ -2,7 +2,12 @@ lexploreur
 =======
 
 Distant reading library for python.
-Under heavy development: in particular, the data structure is likely to change in the coming weeks.
+
+Under heavy development: for now, the package works based on annotations provided by Spacy models, but the goal is to enable the use of other NLP backends.
+
+In particular, the data structure is likely to change in the coming weeks.
+
+
 
 ## Installation
 
@@ -12,7 +17,7 @@ pip install pandas spacy tqdm
 
 ## Essai
 
-Configurer `lexploreur.py`, puis `python lexploreur.py`.
+Configure `lexploreur.py`, then `python lexploreur.py`.
 
 ## Input
 
