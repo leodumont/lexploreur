@@ -15,17 +15,17 @@ In particular, the data structure is likely to change in the coming weeks.
 pip install pandas spacy tqdm
 ```
 
-## Essai
+## Usage
 
 Configure `lexploreur.py`, then `python lexploreur.py`.
 
-## Input
+### Input
 
 A CSV file where each row is a textual document in a given column. You can have as metadata columns describing the document as you want. 
 
 See `corpus.csv` for an example.
 
-## Output
+### Output
 
 A json file structured as follow.
 
