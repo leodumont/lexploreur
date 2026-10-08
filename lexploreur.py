@@ -2,12 +2,12 @@ import pandas as pd
 import corpus
 
 if __name__ == "__main__":
-    csvf = "corpus.csv"
+    csvf = "bulletins_république.csv"
 
     df = pd.read_csv(csvf)
 
     corpus.corpus(df,
-                  corpus_name="corpus.json",
+                  corpus_name="bulletins_république.json",
                   text_column="textss",
                   nlp_model="fr_core_news_lg",
                   ner=True,
