@@ -2,7 +2,7 @@ lexploreur
 =======
 
 Distant reading library for python.
-Under heavy development.
+Under heavy development: in particular, the data structure is likely to change in the coming weeks.
 
 ## Installation
 
@@ -18,9 +18,13 @@ Configurer `lexploreur.py`, puis `python lexploreur.py`.
 
 A CSV file where each row is a textual document in a given column. You can have as metadata columns describing the document as you want. 
 
+See `corpus.csv` for an example.
+
 ## Output
 
-A json file structured as follow:
+A json file structured as follow.
+
+See `corpus.json` for a complete example.
 
 ```json
 [
