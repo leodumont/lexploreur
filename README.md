@@ -49,6 +49,8 @@ pip install pandas spacy tqdm
 2. Configure `lexploreur.py`
 3. Execute `python lexploreur.py`
 
+## General Description
+
 ### Input
 
 A CSV file where each row is a textual document in a given column. You can have as metadata columns describing the document as you want. 
