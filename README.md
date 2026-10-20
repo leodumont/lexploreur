@@ -11,13 +11,43 @@ In particular, the data structure is likely to change in the coming weeks.
 
 ## Installation
 
+### Prérequis
+
+Il faut installer le gestionnaire de projet [uv](https://docs.astral.sh/uv/getting-started/installation/).
+
+### Procédure d'installation
+
+1. Cloner le dépôt avec `git` :
+
+```bash
+   git clone git@github.com:votre-user/lexploreur.git
+   cd lexploreur
 ```
+
+2. Installer les dépendances via `uv` :
+
+```bash
+   uv sync
+```
+
+3. Configure `lexploreur.py`
+4. Exécuter `lexploreur.py` :
+
+```bash
+uv run lexploreu.py
+```
+
+### Alternative
+
+If you don't want to use `uv` :
+
+1. Install dependencies manually :
+
+```bash
 pip install pandas spacy tqdm
 ```
-
-## Usage
-
-Configure `lexploreur.py`, then `python lexploreur.py`.
+2. Configure `lexploreur.py`
+3. Execute `python lexploreur.py`
 
 ### Input
 
