@@ -3,35 +3,35 @@ lexploreur
 
 Distant reading library for python.
 
-Under heavy development: for now, the package works based on annotations provided by Spacy models, but the goal is to enable the use of other NLP backends.
+Under heavy development: for now, the package works based on annotations provided by Spacy models, but the goal is to enable the use of other NLP backends like udpipe or stanza.
 
-In particular, the data structure is likely to change in the coming weeks.
+## Try lexploreur in a Notebook
 
+Coming soon.
 
+## Local Installation 
 
-## Installation
+### Dependencies
 
-### Prérequis
+You need python project manager [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
-Il faut installer le gestionnaire de projet [uv](https://docs.astral.sh/uv/getting-started/installation/).
+### Installation steps
 
-### Procédure d'installation
-
-1. Cloner le dépôt avec `git` :
+1. clone depot with `git` :
 
 ```bash
    git clone git@github.com:votre-user/lexploreur.git
    cd lexploreur
 ```
 
-2. Installer les dépendances via `uv` :
+2. Install dependencies  via `uv` :
 
 ```bash
    uv sync
 ```
 
 3. Configure `lexploreur.py`
-4. Exécuter `lexploreur.py` :
+4. Run `lexploreur.py` :
 
 ```bash
 uv run lexploreur.py
@@ -47,7 +47,7 @@ If you don't want to use `uv` :
 pip install pandas spacy tqdm
 ```
 2. Configure `lexploreur.py`
-3. Execute `python lexploreur.py`
+3. Run `python lexploreur.py`
 
 ## General Description
 
