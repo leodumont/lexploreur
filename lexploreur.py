@@ -8,7 +8,7 @@ if __name__ == "__main__":
 
     corpus.corpus(df,
                   corpus_name="bulletins_république.json",
-                  text_column="textss",
+                  text_column="texts",
                   nlp_model="fr_core_news_lg",
                   ner=True,
                   batch_size=32,
