@@ -20,7 +20,7 @@ You need python project manager [uv](https://docs.astral.sh/uv/getting-started/i
 1. clone depot with `git` :
 
 ```bash
-   git clone git@github.com:votre-user/lexploreur.git
+   git clone git@github.com:leodumont/lexploreur.git
    cd lexploreur
 ```
 
