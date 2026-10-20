@@ -34,7 +34,7 @@ Il faut installer le gestionnaire de projet [uv](https://docs.astral.sh/uv/getti
 4. Exécuter `lexploreur.py` :
 
 ```bash
-uv run lexploreu.py
+uv run lexploreur.py
 ```
 
 ### Alternative
