@@ -80,9 +80,8 @@ def extract_entities(doc) -> List[Dict[str, Any]]:
     Extract named entities with their corresponding token indices.
 
     Iterates through the recognized entities in the document. Note that
-    the `token_end` index is adjusted by subtracting 1, as Spacy's default
-    end index is exclusive, whereas this function returns the inclusive
-    index of the last token in the entity.
+    the `token_end` index is exclusive (Spacy's default
+    end index).
 
     Parameters
     ----------
@@ -114,8 +113,8 @@ def extract_sentences(doc) -> List[Dict[str, Any]]:
     Extract sentence spans with their corresponding token indices.
 
     Iterates through the sentences detected by Spacy. Similar to entity
-    extraction, the `sent_end` index is adjusted by subtracting 1 to
-    provide the inclusive index of the last token in the sentence.
+    extraction, the `sent_end` index is exclusive (Spacy's default
+    end index).
 
     Parameters
     ----------
