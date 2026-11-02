@@ -30,11 +30,11 @@ You need python project manager [uv](https://docs.astral.sh/uv/getting-started/i
    uv sync
 ```
 
-3. Configure `lexploreur.py`
-4. Run `lexploreur.py` :
+3. Configure `main.py`
+4. Run `main.py` :
 
 ```bash
-uv run lexploreur.py
+uv run main.py
 ```
 
 ### Alternative
@@ -46,8 +46,8 @@ If you don't want to use `uv` :
 ```bash
 pip install pandas spacy tqdm
 ```
-2. Configure `lexploreur.py`
-3. Run `python lexploreur.py`
+2. Configure `main.py`
+3. Run `python main.py`
 
 ## General Description
 
