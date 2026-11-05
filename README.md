@@ -7,7 +7,7 @@ Under heavy development: for now, the package works based on annotations provide
 
 ## Try lexploreur in a Notebook
 
-Coming soon.
+See `lexploreur_démo.ipynb`.
 
 ## Local Installation 
 

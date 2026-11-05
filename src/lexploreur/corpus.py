@@ -1,7 +1,8 @@
 import pandas as pd
 import spacy
 import os
-from tqdm import tqdm
+# from tqdm import tqdm
+from tqdm.notebook import tqdm
 from typing import List, Dict, Any, Optional
 import json
 

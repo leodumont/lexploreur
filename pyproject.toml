@@ -2,7 +2,11 @@
 name = "lexploreur"
 version = "0.2.0"
 dependencies = [
+    "ipywidgets>=8.1.9",
+    "jupyterlab>=4.6.5",
+    "matplotlib>=3.11.2",
     "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
     "spacy>=3.8.16",
     "tqdm>=4.70.1",
 ]
