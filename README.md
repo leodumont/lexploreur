@@ -7,7 +7,7 @@ Under heavy development: for now, the package works based on annotations provide
 
 ## Try lexploreur in a Notebook
 
-See `lexploreur_démo.ipynb`.
+See `lexploreur_démo.ipynb`, you can also try it on binder : [![*Notebook* de démo sur Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leodumont/lexploreur/main?urlpath=%2Fdoc%2Ftree%2Flexploreur_d%C3%A9mo.ipynb)
 
 ## Local Installation 
 
